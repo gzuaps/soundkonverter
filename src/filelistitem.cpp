@@ -117,7 +117,8 @@ void FileListItemDelegate::paint( QPainter *painter, const QStyleOptionViewItem&
     {
         if( option.state & QStyle::State_Selected )
         {
-            backgroundColor = QColor(215,102,102); // hsv:   0, 134, 215
+            //backgroundColor = QColor(215,102,102); // hsv:   0, 134, 215
+            backgroundColor = QColor(dodgerblue); 
         }
         else
         {
