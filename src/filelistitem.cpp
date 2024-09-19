@@ -117,12 +117,12 @@ void FileListItemDelegate::paint( QPainter *painter, const QStyleOptionViewItem&
     {
         if( option.state & QStyle::State_Selected )
         {
-            //backgroundColor = QColor(215,102,102); // hsv:   0, 134, 215
-            backgroundColor = QColor(17,125,208); 
+            backgroundColor = QColor(215,102,102); // hsv:   0, 134, 215
         }
         else
         {
-            backgroundColor = QColor(255,234,234); // hsv:   0,  21, 255
+            //backgroundColor = QColor(255,234,234); // hsv:   0,  21, 255
+             backgroundColor = QColor(17,125,208);
         }
     }
     else if( isFailed )
